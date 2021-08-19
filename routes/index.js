@@ -1,5 +1,5 @@
-const express = require('express');
 const routes = require('express').Router();
+const db = require('../db-config');
 
 // define the index route
 routes.get('/', (req, res) => {
